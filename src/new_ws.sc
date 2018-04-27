@@ -58,4 +58,5 @@ def sq(n:Double):Double= { if (x >= 0)  scala.math.sqrt(x)
 else throw new IllegalArgumentException("x should not be negative") }
 val b1= sq(-4)
 println(b1)
+//Check habr
 
