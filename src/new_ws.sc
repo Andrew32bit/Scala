@@ -59,4 +59,21 @@ else throw new IllegalArgumentException("x should not be negative") }
 val b1= sq(-4)
 println(b1)
 //Check habr
+def sum(a: Int, b: Int) = {a + b} // Scala
+sum(1,2)
 
+val obj = "heela"
+obj match {
+  case strWithA: String if strWithA.contains("a") => strWithA
+  //case negative: Int if negative < 0 => negative
+  //case zero if zero == 0 => zero
+  case _ => 0
+}
+
+("David", 15) match {
+  case ("David", age) if age < 30 => "young David"
+  case ("David", _) => "old David"
+  case _ => "Other"
+}
+"Hello, Scala!".toUpperCase
+16.toHexString
