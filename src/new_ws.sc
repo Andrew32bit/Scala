@@ -77,3 +77,10 @@ obj match {
 }
 "Hello, Scala!".toUpperCase
 16.toHexString
+def square(x: Double) = x * x
+def area(radius: Double): Double = 3.14159 * square(radius)
+area(10)
+def triangleArea(base: Double, height: Double): Double =
+  base * height / 2
+
+triangleArea(5, 6)
